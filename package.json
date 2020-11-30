@@ -1,0 +1,15 @@
+{
+  "name": "valuta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Csiszár Alex <csiszaralex@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha3"
+  }
+}
