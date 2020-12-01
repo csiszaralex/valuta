@@ -1,4 +1,4 @@
-body{background-image:linear-gradient(120deg, #f6d365 0%, #fda085 100%)}body .container{height:100vh}body .container #bevitel,body .container #ki{width:65%}/*!
+body{background-image:linear-gradient(120deg, #f6d365 0%, #fda085 100%)}body .container{min-height:100vh}body .container #bevitel,body .container #ki{width:65%}/*!
  * Bootstrap v5.0.0-alpha3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.

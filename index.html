@@ -7,31 +7,41 @@
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
-    <div class="container d-flex justify-content-center flex-column">
-      <div class="row">
-        <div class="col-md-12 col-lg-6">
+    <div class="container d-flex justify-content-center flex-column m-3">
+      <div class="row" id="valt">
+        <div class="col-md-12 col-lg-6 mb-2">
           <div class="input-group">
             <select class="form-select" id="bevitelvaluta"></select>
-            <input
-              type="text"
-              class="form-control"
-              id="bevitel"
-            />
+            <input type="text" class="form-control" id="bevitel" />
             <span class="input-group-text" id="bevitelertek"></span>
           </div>
         </div>
         <div class="col-md-12 col-lg-6">
           <div class="input-group">
             <select class="form-select" id="kivaluta"></select>
-            <input
-              type="text"
-              class="form-control"
-              id="ki"
-              readonly
-            />
+            <input type="text" class="form-control" id="ki" readonly />
             <span class="input-group-text" id="kiertek"></span>
           </div>
         </div>
+      </div>
+      <div class="row mt-3 mx-3">
+        <button type="button" class="btn btn-info w-25" id="details">Adatok</button>
+        <div class="w-50 text-center" id="last"></div>
+        <button type="button" class="btn btn-info w-25" id="csere">Csere</button>
+      </div>
+      <div class="row mt-3">
+        <table class="table table-striped table-hover w-75 mx-auto d-none" id="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Code</th>
+              <th>Name</th>
+              <th>Country</th>
+              <th>Move</th>
+            </tr>
+          </thead>
+          <tbody id="tableall"></tbody>
+        </table>
       </div>
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
