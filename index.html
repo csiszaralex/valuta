@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valuta</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center flex-column">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <div class="input-group">
+            <select class="form-select" id="bevitelvaluta"></select>
+            <input
+              type="text"
+              class="form-control"
+              id="bevitel"
+            />
+            <span class="input-group-text" id="bevitelertek"></span>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <div class="input-group">
+            <select class="form-select" id="kivaluta"></select>
+            <input
+              type="text"
+              class="form-control"
+              id="ki"
+              readonly
+            />
+            <span class="input-group-text" id="kiertek"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script defer src="app.js"></script>
+  </body>
 </html>

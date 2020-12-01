@@ -1,0 +1,11 @@
+body {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  .container {
+    height: 100vh;
+    #bevitel, #ki {
+      width: 65%;
+    }
+  }
+}
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
